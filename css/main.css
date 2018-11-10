@@ -161,6 +161,12 @@
 			width: 80%;
 		}
 
+		iframe {
+			max-width: 100% !important;
+			width: auto !important;
+			height: auto !important;
+		}
+
 	}
 
 	@media screen and (max-width: 480px) {
