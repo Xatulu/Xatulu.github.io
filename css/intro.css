@@ -1,0 +1,64 @@
+body {
+    background-color: #000
+}
+
+.background {
+    position: relative;
+}
+
+#typeit {
+    margin: 50px;
+}
+.type-it {
+    font-weight: 100;
+    font-size: 18px;
+    color: #20F54A;
+  }
+
+#login {
+    background-color: #050505;
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    display: none;
+    margin-left: 10%;
+    margin-right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80%;
+    z-index: 5;
+    height: 70%;
+    position: fixed;
+}
+
+#DigiRain {
+    position: fixed;
+    display: none;
+}
+
+#innerlogin{
+    height: auto;
+    margin: 0 auto;
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+form {
+    font-weight: 100;
+    color: #20F54A;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    font: 18px verdana,sans-serif!important;
+}
+
+#decrypt {
+    width: auto;
+}
+
+#help {
+    width: auto;
+}
